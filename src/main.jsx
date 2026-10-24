@@ -2,6 +2,7 @@ import React, {useEffect, useMemo, useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {config, projects, experience, skills, achievements} from './data';
 import './style.css';
+import './typography.css';
 
 const sections=[['01','operator','OPERATOR FILE'],['02','missions','MISSION ARCHIVE'],['03','threat','THREAT LAB'],['04','experience','INCIDENT HISTORY'],['05','skills','EQUIPMENT'],['06','achievements','EVIDENCE'],['07','contact','ESTABLISH CONTACT']];
 function Glyph({type}){return <div className={'glyph '+type} aria-hidden="true"><i/><i/><i/><i/><i/></div>}

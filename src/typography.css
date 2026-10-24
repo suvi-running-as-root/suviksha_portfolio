@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+/* Loaded after the legacy stylesheet so these are the active rendered families. */
+:root {
+  --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --sans: 'IBM Plex Sans', Arial, sans-serif;
+  --mono: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+body { font-family: var(--sans); }
+.hero h1, h2, .casefile h3, .timeline h3, .inventory h3, .evidence-grid h3,
+.signal h3, .contact-links a { font-family: var(--display); }
+.eyebrow, header > span, .contact > div > span, .name, .button, nav a, .fx,
+.monitor-top, .monitor-bottom, .status-panel, .id-card, .dossier dl,
+.mission-list button b, .mission-list button small, .case-head, .tech span,
+.casefile small, .panel-bar, .console-log, .terminal-panel form label,
+.terminal-panel input, .signal p, .timeline .date, .timeline h4,
+.inventory button, .evidence-grid small, .evidence-grid span, .contact > div > p,
+.contact-links small, footer, .boot, .priority { font-family: var(--mono); }
+
+/* Preserve dense dossier hierarchy while improving readable long-form copy. */
+.lead, .dossier article, .casefile p, .timeline p, .section header > p,
+.evidence-grid p, .terminal-panel > p { font-family: var(--sans); }
+
+@media (max-width: 570px) {
+  body { font-size: 14px; }
+  .hero h1, .section h2 { letter-spacing: -.01em; }
+}

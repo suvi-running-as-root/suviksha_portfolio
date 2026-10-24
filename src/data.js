@@ -18,6 +18,7 @@ export const projects = [
 ];
 
 export const experience = [
+  {date:'SEP 2026 - DEC 2026',org:'Grant Thornton Indus',role:'SASS Intern, Audit & Security Assurance',state:'ONGOING',text:'Supporting SOC 1 and SOC 2 engagements by testing logical-access, change-management, and incident-response controls. Reviewing access reviews, configurations, and system logs to assess control design and operating effectiveness; documenting exceptions; mapping evidence to Trust Services Criteria; and drafting test results with the US engagement team.'},
   {date:'DEC 2025 - JAN 2026',org:'Amar Seva Sangam (USA Chapter)',role:'Web Developer (Freelance)',state:'COMPLETED',text:'Built and deployed a single-page website on Vercel, integrated Zeffy fundraising flows, and improved contact routing, responsiveness, and UI.'},
   {date:'MAY 2024 - DEC 2024',org:'RV University',role:'Cybersecurity Intern',state:'COMPLETED',text:'Performed OWASP-guided assessments across web and mobile systems; built dashboard components and an APK penetration-testing tool for automated reporting.'},
   {date:'JUN 2024 - AUG 2024',org:'RV University',role:'AI for Cybersecurity - Student Research',state:'COMPLETED',text:'Investigated security logs and network data with exploratory analysis, preprocessing, and feature analysis for anomaly-focused insights.'},
